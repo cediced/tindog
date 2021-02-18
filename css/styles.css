@@ -125,3 +125,17 @@ padding: 7% 15%;
   width: 15%;
   margin: 30px 20px;
 }
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.princing-column {
+  padding: 7% 3%;
+}
+
+.price-buton {
+}
