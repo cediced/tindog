@@ -9,10 +9,12 @@ h1 {
 }
 
 h2 {
+
   font-size: 4.5rem;
   font-weight: bold;
-line-height: 6.5rem;
+  line-height: 6rem;
   padding-bottom: 40px;
+
 }
 
 h3 {
@@ -94,7 +96,7 @@ padding: 7% 15%;
 
 /* testimonial */
 #testimonials {
-  padding: 7% 15%;
+
   text-align: center;
   background-color: #ef8172;
   color: white;
@@ -113,6 +115,10 @@ padding: 7% 15%;
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 .press-logo {
