@@ -3,10 +3,16 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat-Black, sans-serif';
+  font-family: 'Montserrat-bold, sans-serif';
   font-size: 4.5rem;
-  line-height: 1.5;
   font-weight: 900;
+}
+
+h2 {
+  font-size: 4.5rem;
+  font-weight: bold;
+line-height: 6.5rem;
+  padding-bottom: 40px;
 }
 
 h3 {
@@ -78,10 +84,38 @@ padding: 7% 15%;
 }
 
 .box-icon {
-  color: #cf8172;
+  color: #ef8172;
   padding-bottom: 5%;
 }
 
 .box-icon:hover {
   color: #ff4c68;
+}
+
+/* testimonial */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 30px 20px;
 }
