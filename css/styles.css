@@ -9,12 +9,10 @@ h1 {
 }
 
 h2 {
-
   font-size: 4.5rem;
   font-weight: bold;
   line-height: 6rem;
   padding-bottom: 40px;
-
 }
 
 h3 {
@@ -27,7 +25,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 #title {
@@ -63,23 +61,26 @@ h3 {
 
 /* title image */
 .title-image {
-width: 60%;
-transform: rotate(25deg);
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 30%;
 }
 
 /* features */
 #features {
-padding: 7% 15%;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
 }
 
 .box {
-
   text-align: center;
   font-size: 1rem;
 }
 
-.box-desc
-{
+.box-desc {
   color: gray;
   font-size: 1.2rem;
   padding: 0 10%;
@@ -96,7 +97,6 @@ padding: 7% 15%;
 
 /* testimonial */
 #testimonials {
-
   text-align: center;
   background-color: #ef8172;
   color: white;
@@ -137,5 +137,49 @@ padding: 7% 15%;
   padding: 7% 3%;
 }
 
-.price-buton {
+.price-buton {}
+
+
+/* call to action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+
+  color: white;
+  padding: 3% 7%;
+}
+
+.cta-heading {
+  padding: 2%;
+  font-size: 3.5rem;
+  font-family: "Montserrat-black"
+}
+
+.download-buton-cta {
+  margin: 20px 10px;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 5% 1%;
+  background: white;
+  font-family: 'Montserrat-Black, sans-serif';
+}
+
+.footer-icon {
+margin: 10px 5px;
+}
+
+/* mobile queries */
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
